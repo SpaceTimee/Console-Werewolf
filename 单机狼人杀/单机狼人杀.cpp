@@ -41,7 +41,6 @@ struct ticket
 	~ticket() {}
 };
 
-
 position person[9]{};	//人物
 ticket tp[9]{};	//投票
 
@@ -57,11 +56,6 @@ bool poi{ 1 }, anti{ 1 };	//毒与奶剩余数
 
 string name[9]{ "","狼人","狼人","女污","预言家","守卫","平民","平民" };
 
-
-inline void tone()	//提示音 
-{
-	cout << '\a';
-}
 
 inline void clh()	//缓冲清理 
 {
